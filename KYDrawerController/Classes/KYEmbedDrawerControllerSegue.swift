@@ -22,7 +22,7 @@ SOFTWARE.
 
 import UIKit
 
-public class KYEmbedDrawerControllerSegue: UIStoryboardSegue {
+open class KYEmbedDrawerControllerSegue: UIStoryboardSegue {
     
     final override public func perform() {
         if let sourceViewController = source as? KYDrawerController {
